@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "link": "/good",
+        "text": "Good"
+    },
+    {
+        "id": "2",
+        "link": "/neutral",
+        "text": "Neutral"
+    },
+    {
+        "id": "3",
+        "link": "/bad",
+        "text": "Bad"
+    }
+]
