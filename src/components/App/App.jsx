@@ -1,7 +1,5 @@
 import Feedback from "components/Feedback/Feedback";
 
-import feedbackItems from "components/DataJson/feedbackItems.json"
-
 export const App = () => {
   return (
     <div
@@ -14,7 +12,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      <Feedback items={feedbackItems} />
+      <Feedback/>
     </div>
   );
 };
