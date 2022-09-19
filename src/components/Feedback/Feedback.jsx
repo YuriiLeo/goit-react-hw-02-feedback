@@ -9,8 +9,6 @@ state = {
   good: 0,
   neutral: 0,
   bad: 0,
-  total: 0,
-  positivePercentage: 0,
     }
 
     onLeaveFeedback = (propertyName) => {
@@ -44,7 +42,7 @@ state = {
         return (
                 <div>
                 <Section title="Please leave feedback">
-                    <FeedbackOptions   onLeaveFeedback={this.onLeaveFeedback}/>
+                    <FeedbackOptions options={Object.keys(this.state)}  onLeaveFeedback={this.onLeaveFeedback}/>
                 </Section>
                 <div>
                     <Section title="Statistics" >

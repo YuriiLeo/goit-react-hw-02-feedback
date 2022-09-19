@@ -18,4 +18,8 @@ export const Button = styled.button`
         background-color: #2196f3;
         transform: scale(1.22);
     }  
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
 `;
